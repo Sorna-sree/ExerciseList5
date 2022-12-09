@@ -11,7 +11,7 @@ user_name=input("Enter the username: ")
 
 if(len(user_name)>=4 and len(user_name)<=8 ) and user_name.isalpha() and user_name[0]!='_' and user_name[-1]!='_':
     print("valide username")
-if(len(user_name)<=4 and len(user_name)>=8):
+if(len(user_name)<=4 or len(user_name)>=8):
     print("user name length should be between 4 and 8")
 if(user_name.isalpha()==False):
     print("username should not startwith number and spcial character should use only alphabets")
