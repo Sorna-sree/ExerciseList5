@@ -22,13 +22,13 @@ print(player_name)
 
 #calculate the number of players from each country
 for value in range(0,len(player_name)):
-    if "IND" in player_name[value]:
+    if "IND" in player_name[value] and set(player_name) :
         Indcount+=1
     
-    if "ENG" in player_name[value]:
+    if "ENG" in player_name[value] and set(player_name):
         Engcount+=1
     
-    if "AUS" in player_name[value]:
+    if "AUS" in player_name[value] and set(player_name):
         Auscount+=1
         
         
